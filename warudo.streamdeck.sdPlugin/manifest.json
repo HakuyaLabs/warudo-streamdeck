@@ -1,0 +1,65 @@
+{
+	"SDKVersion": 2,
+	"Author": "Hakuya Labs",
+	"CodePath": "index.html",
+	"Description": "Integration with Warudo, a 3D livestreaming software for VTubers.",
+	"Name": "Warudo",
+	"Icon": "action/images/icon",
+	"URL": "https://warudo.app",
+	"Version": "1.0.0",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Warudo",
+	"CategoryIcon": "action/images/icon",
+	"Actions": [
+		{
+			"Icon": "action/images/icon",
+			"Name": "Trigger",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "action/images/icon"
+				}
+			],
+			"Tooltip": "Invoke a trigger in Warudo",
+			"UUID": "warudo.trigger",
+			"PropertyInspectorPath": "trigger.html"
+		},
+		{
+			"Icon": "action/images/icon",
+			"Name": "Toggle",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "action/images/icon_gray"
+				},
+				{
+					"Image": "action/images/icon"
+				}
+			],
+			"Tooltip": "Activate a toggle in Warudo",
+			"UUID": "warudo.toggle",
+			"PropertyInspectorPath": "toggle.html"
+		},
+		{
+			"Icon": "action/images/icon",
+			"Name": "Message",
+			"Controllers": ["Keypad"],
+			"States": [
+				{
+					"Image": "action/images/icon"
+				}
+			],
+			"Tooltip": "Send a message to Warudo",
+			"UUID": "warudo.message",
+			"PropertyInspectorPath": "message.html"
+		}
+	]
+}
