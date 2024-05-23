@@ -46,10 +46,6 @@ const setupWebsocket = () => {
         console.log('Disconnected from Warudo');
         setupWebsocket();
     }
-    ws.onerror = function(err) {
-        // console.error('Error connecting to Warudo', err);
-        setupWebsocket();
-    }
     ws.onmessage = function(msg) {
         console.log('Message from Warudo', msg);
         const data = JSON.parse(msg.data);
