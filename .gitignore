@@ -1,2 +1,9 @@
-/.idea
-/DistributionTool.exe
+.DS_Store
+.idea/**
+/DistributionTool*
+.vscode/**
+package.json
+package-lock.json
+.history
+__exclude
+.editorconfig

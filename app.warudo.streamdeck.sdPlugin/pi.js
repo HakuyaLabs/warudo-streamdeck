@@ -1,6 +1,5 @@
-/// <reference path="../libs/js/property-inspector.js" />
-/// <reference path="../libs/js/action.js" />
-/// <reference path="../libs/js/utils.js" />
+/// <reference path="libs/js/property-inspector.js" />
+/// <reference path="libs/js/utils.js" />
 
 console.log('Property Inspector loaded', $PI);
 

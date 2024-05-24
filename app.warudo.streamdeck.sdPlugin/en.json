@@ -1,0 +1,20 @@
+{
+    "Description": "Integration with Warudo, a 3D livestreaming software for VTubers.",
+    "Name": "Warudo",
+    "Category": "Warudo",
+    "app.warudo.trigger": {
+        "Name": "Trigger", 
+        "Tooltip": "Invoke a trigger in Warudo"
+    },
+    "app.warudo.toggle": {
+        "Name": "Toggle", 
+        "Tooltip": "Activate a toggle in Warudo"
+    },
+    "app.warudo.message": {
+        "Name": "Message", 
+        "Tooltip": "Send a message to Warudo"
+    },
+    "Localization": {
+        "Receiver name": "Receiver name"
+    }
+}

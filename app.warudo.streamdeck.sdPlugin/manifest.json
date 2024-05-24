@@ -6,7 +6,7 @@
 	"Name": "Warudo",
 	"Icon": "action/images/icon",
 	"URL": "https://warudo.app",
-	"Version": "1.1.0",
+	"Version": "1.2.0",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
@@ -16,6 +16,11 @@
 			"MinimumVersion": "10"
 		}
 	],
+	"ApplicationsToMonitor": {
+		"windows": [
+			"Warudo.exe"
+		]
+	},
 	"Category": "Warudo",
 	"CategoryIcon": "action/images/icon",
 	"Actions": [
@@ -29,7 +34,7 @@
 				}
 			],
 			"Tooltip": "Invoke a trigger in Warudo",
-			"UUID": "warudo.trigger",
+			"UUID": "app.warudo.trigger",
 			"PropertyInspectorPath": "trigger.html"
 		},
 		{
@@ -45,7 +50,7 @@
 				}
 			],
 			"Tooltip": "Activate a toggle in Warudo",
-			"UUID": "warudo.toggle",
+			"UUID": "app.warudo.toggle",
 			"PropertyInspectorPath": "toggle.html"
 		},
 		{
@@ -58,7 +63,7 @@
 				}
 			],
 			"Tooltip": "Send a message to Warudo",
-			"UUID": "warudo.message",
+			"UUID": "app.warudo.message",
 			"PropertyInspectorPath": "message.html"
 		}
 	]
