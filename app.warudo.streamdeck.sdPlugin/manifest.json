@@ -6,7 +6,7 @@
 	"Name": "Warudo",
 	"Icon": "action/images/icon",
 	"URL": "https://warudo.app",
-	"Version": "1.1.0",
+	"Version": "1.2.0",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},
@@ -16,6 +16,11 @@
 			"MinimumVersion": "10"
 		}
 	],
+	"ApplicationsToMonitor": {
+		"windows": [
+			"Warudo.exe"
+		]
+	},
 	"Category": "Warudo",
 	"CategoryIcon": "action/images/icon",
 	"Actions": [
