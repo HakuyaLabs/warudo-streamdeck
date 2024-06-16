@@ -34,7 +34,7 @@
 				}
 			],
 			"Tooltip": "Invoke a trigger in Warudo",
-			"UUID": "app.warudo.trigger",
+			"UUID": "warudo.trigger",
 			"PropertyInspectorPath": "trigger.html"
 		},
 		{
@@ -50,7 +50,7 @@
 				}
 			],
 			"Tooltip": "Activate a toggle in Warudo",
-			"UUID": "app.warudo.toggle",
+			"UUID": "warudo.toggle",
 			"PropertyInspectorPath": "toggle.html"
 		},
 		{
@@ -63,7 +63,7 @@
 				}
 			],
 			"Tooltip": "Send a message to Warudo",
-			"UUID": "app.warudo.message",
+			"UUID": "warudo.message",
 			"PropertyInspectorPath": "message.html"
 		}
 	]

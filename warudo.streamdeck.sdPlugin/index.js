@@ -10,9 +10,9 @@ const MPLUGINDATA = {
 
 /** ACTION  related */
 
-const triggerAction = new Action('app.warudo.trigger');
-const toggleAction = new Action('app.warudo.toggle');
-const messageAction = new Action('app.warudo.message');
+const triggerAction = new Action('warudo.trigger');
+const toggleAction = new Action('warudo.toggle');
+const messageAction = new Action('warudo.message');
 console.log('triggerAction', triggerAction);
 console.log('toggleAction', toggleAction);
 console.log('messageAction', messageAction);
